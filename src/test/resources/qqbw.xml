@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<BatchFolderWorkflows>
+	<folderWorkFlows>
+		<FolderWorkflow>
+			<folder/>
+			<workFlows>
+				<workFlow>
+					<workflowId>bf7924f8-168f-4478-9467-c8991f08c641</workflowId>
+					<workflowName>ftp_hdfs</workflowName>
+					<workflowDesc>ftp_hdfs</workflowDesc>
+					<projectId>7</projectId>
+					<projectIdent>demo_liulv</projectIdent>
+					<projectName>demo_liulv</projectName>
+					<ownerId>106</ownerId>
+					<owner>liulv</owner>
+					<createTime class="sql-timestamp">2020-04-20 21:10:30</createTime>
+					<modifyTime class="sql-timestamp">2020-04-20 21:10:30</modifyTime>
+					<tasks>
+						<task>
+							<isAdmin>false</isAdmin>
+							<taskId>cdbe8777-5764-4046-9aab-b5375dcdb6cc</taskId>
+							<workflowId>bf7924f8-168f-4478-9467-c8991f08c641</workflowId>
+							<workflowName>ftp_hdfs</workflowName>
+							<taskStatus>3</taskStatus>
+							<taskName>ftp-hdfs</taskName>
+							<taskTypeId>69</taskTypeId>
+							<taskTypeName>FTP到HDFS</taskTypeName>
+							<taskDesc>hdfs</taskDesc>
+							<ownerId>106</ownerId>
+							<owner>liulv</owner>
+							<resourceQueue>demo_liulv</resourceQueue>
+							<cycle>H</cycle>
+							<dataStartTime class="sql-timestamp">2020-04-20 00:00:00</dataStartTime>
+							<endTime class="sql-timestamp">2022-04-20 00:00:00</endTime>
+							<startMin>5</startMin>
+							<startHour>0</startHour>
+							<startDay>0</startDay>
+							<selfDepend>2</selfDepend>
+							<properties>{"endDate":"1650384000000","retriable":"1","source_server":"ftp","target_server":"hdfs_liulv","sourceFilePath":"/project/demo_liulv/ftp","file.pattern":".*","traversal":"0","maxlayer":"5","targetFilePath":"/project/demo_liulv/test","saveSonPath":"1","task_priority":"6","tryLimit":"2","cycleNum":"1","brokerIp":"any"}</properties>
+							<createTime class="sql-timestamp">2020-04-20 21:24:04</createTime>
+							<creator>liulv</creator>
+							<modifyTime class="sql-timestamp">2020-04-20 23:48:03</modifyTime>
+							<projectId>7</projectId>
+							<projectIdent>demo_liulv</projectIdent>
+							<projectName>demo_liulv</projectName>
+							<webCanvas>left: 389px; top: 212px;</webCanvas>
+							<category>lhotse</category>
+							<realTaskId>20200420212618677</realTaskId>
+							<managed>false</managed>
+						</task>
+					</tasks>
+					<edges/>
+				</workFlow>
+			</workFlows>
+		</FolderWorkflow>
+	</folderWorkFlows>
+</BatchFolderWorkflows>
